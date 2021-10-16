@@ -1,0 +1,82 @@
+body {
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-bottom-top-desktop.svg);
+  font-family: "spartan", "san-serif";
+}
+
+.top {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.heading {
+  padding: 0 180px 0 0;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+.paragraph {
+  padding: 0 40px 0 0;
+  color: hsl(303, 10%, 53%);
+}
+
+.stars {
+  padding: 9px;
+}
+
+.col-md-9 {
+  padding: 5px;
+  padding-top: 10px;
+  background-color: hsl(303, 24%, 96%);
+  border-radius: 12px;
+  color: hsl(300, 43%, 22%);
+  height: 50px;
+}
+
+.rating {
+  text-align: center;
+}
+
+.irene {
+  position: relative;
+  top: 20px;
+}
+
+.anne {
+  position: relative;
+  top: 40px;
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  /* padding: 30px 0 0 30px; */
+}
+
+.reviews {
+  padding: 20px 0 0 30px;
+  color: hsl(333, 80%, 67%);
+}
+
+h6 {
+  color: hsl(0, 0%, 100%);
+}
+
+img {
+  border-radius: 50px;
+}
+
+.card-body {
+  color: hsl(300, 24%, 96%);
+  padding-left: 30px
+}
+
+@media only screen and (max-width:761px) {
+  .heading{
+      padding: 0 100px 0 100px;
+      text-align: center;
+  }
+  .col-md-9 {
+    height: 90px;
+    padding: 20px 70px 20px 70px;
+    text-align: center;
+  }
+}
